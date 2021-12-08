@@ -221,5 +221,12 @@ namespace Proyecto_3_Parcial
                 }
             }
         }
+
+        private void Form1_button3(object sender, EventArgs e)
+        {
+            button4.Visible = false;
+            pictureBox1.Image = Proyecto_3_Parcial.Properties.Resources.L2;
+            button1.Visible = true;
+        }
     }
 }

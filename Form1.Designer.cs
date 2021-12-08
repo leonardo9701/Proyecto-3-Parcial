@@ -128,6 +128,7 @@
             this.button4.TabIndex = 9;
             this.button4.Text = "Volvamos al inicio";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.Form1_button3);
             // 
             // Form1
             // 
